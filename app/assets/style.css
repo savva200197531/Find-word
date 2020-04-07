@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto;
+  background-image: url("../assets/img/topography.svg"),
+  linear-gradient(110deg, #f93d66, #6d47d9);
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 10px;
+  background-color: var(--yellow);
+}
